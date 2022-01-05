@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  padding-top: 150px;
+  font-family: 'Sacramento', serif;
+  font-size: 4rem;
+  margin:0;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', serif
+}
+
+p{
+  color: #40514E;
+  line-height: 2;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+hr{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border-top: dotted 10px;
+  border-color:#EAF6F6;
+  width:10%;
+  border-bottom: 0;
+}
+
+.subtitulo {
+  margin-top: 10px;
+}
+
+.top-container {
+  height: 100vh;
+  background-color: #F2FFE9;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  /* Need a specific value to work */
+}
+
+.profile{
+  width:50%;
+  margin: auto;
+}
+
+
+.img-eu {
+  margin-top: 100px;
+}
+/* o float serve para deixar um elemento em uma posição de forma que os outros o cerquem. ja a opção clear é o anti-float*/
+.img-office {
+  margin-right: 30px;
+  float:left;
+  width: 150px;
+}
+
+.img-computer {
+  margin-left: 30px;
+  float:right;
+  width: 150px;
+}
+
+.img-ingles {
+  margin-right: 30px;
+  float:left;
+  width: 150px;
+}
+
+.skill-row{
+  line-height: 2;
+  text-align: left;
+  width:50%;
+  margin: 70px auto;
+}
+
+.segundo-hr{
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.contact-me{
+  margin-top: 100px;
+}
+
+.bottom-container{
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 20px;
+  height: 100px;
+  background-color: #66BFBF;
+}
+
+.texto-mensagem{
+  margin: 30px auto 50px auto;
+  width: 30%;
+}
+
+.linkedin-link{
+  font-size: 1rem;
+  position: relative;
+  top:30px;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  position: relative;
+  top:50px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
